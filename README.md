@@ -9,7 +9,7 @@ This bash script simplifies the creation of a swap file on a VPS (Virtual Privat
 To use this script, execute it using the following command:
 
 ```bash
-wget -O swap.sh https://raw.githubusercontent.com/thepwnexperts/advance-things/main/linux/vps/swap/swap.sh
+wget -O swap.sh https://raw.githubusercontent.com/advance-things/linux-swap/main/swap.sh
 chmod +x swap.sh
 ./swap.sh [-s <swap_size>] [-f <swap_file>] [-F <add_to_fstab>]
 ```
@@ -29,7 +29,7 @@ Create a swap file with a size of 4096 MB (4 GB), named `/swapfile`, and add it 
 ```
 
 ```
-wget -O swap.sh https://raw.githubusercontent.com/thepwnexperts/advance-things/main/linux/vps/swap/swap.sh
+wget -O swap.sh https://raw.githubusercontent.com/advance-things/linux-swap/main/swap.sh
 chmod +x swap.sh
 ./swap.sh -s 4096 -f /swapfile -F true
 ```
